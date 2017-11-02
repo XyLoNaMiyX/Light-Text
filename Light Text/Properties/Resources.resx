@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="addondownload" xml:space="preserve">
+    <value>¡El addon se descargó correctamente!</value>
+  </data>
+  <data name="addondownloadt" xml:space="preserve">
+    <value>Addon descargado</value>
+  </data>
+  <data name="addonerror" xml:space="preserve">
+    <value>Ocurrió un error al intentar descargar el addon</value>
+  </data>
+  <data name="addonerrort" xml:space="preserve">
+    <value>No se pudo descargar el addon</value>
+  </data>
+  
+  <data name="UC1" xml:space="preserve">
+    <value>Actualizar</value>
+  </data>
+  <data name="UC10" xml:space="preserve">
+    <value>Actualización descargada</value>
+  </data>
+  <data name="UC11" xml:space="preserve">
+    <value>Actualizando desde la versión</value>
+  </data>
+  <data name="UC12" xml:space="preserve">
+    <value>a la última versión disponible</value>
+  </data>
+  <data name="UC2" xml:space="preserve">
+    <value>Aceptar y salir</value>
+  </data>
+  <data name="UC3" xml:space="preserve">
+    <value>Comprobando actualizaciones...</value>
+  </data>
+  <data name="UC4" xml:space="preserve">
+    <value>No se pudo comprobar si existen actualizaciones
+Compruebe que dispone de conexión a internet</value>
+  </data>
+  <data name="UC5" xml:space="preserve">
+    <value>Se ha encontrado una nueva versión
+Haga clic en actualizar para descargarla atuomáticamente</value>
+  </data>
+  <data name="UC6" xml:space="preserve">
+    <value>Ya está utilizando la última versión
+No es necesario actualizar</value>
+  </data>
+  <data name="UC7" xml:space="preserve">
+    <value>Actualizando...</value>
+  </data>
+  <data name="UC8" xml:space="preserve">
+    <value>El programa se ha descargado correctamente.
+                
+Borre la versión actual y extraiga el archivo comprimido descargado en:</value>
+  </data>
+  <data name="UC9" xml:space="preserve">
+    <value>¿Desea abrir la carpeta?</value>
+  </data>
+  <data name="allfilter" xml:space="preserve">
+    <value>Todos los archivos|*</value>
+  </data>
+  <data name="chars" xml:space="preserve">
+    <value>Caracteres:</value>
+  </data>
+  <data name="closingnosave" xml:space="preserve">
+    <value>Este archivo ha sufrido cambios y no se ha guardado todavía. ¿Desea guardarlo ahora? Si no guarda, perderá los cambios realizados en este</value>
+  </data>
+  <data name="closingnosavet" xml:space="preserve">
+    <value>Cambios sin guardar</value>
+  </data>
+  <data name="couldnotsave" xml:space="preserve">
+    <value>No se pudo guardar el archivo</value>
+  </data>
+  <data name="cscompiler" xml:space="preserve">
+    <value>Compilador C#</value>
+  </data>
+  <data name="curnotsaved" xml:space="preserve">
+    <value>El archivo actual no se ha guardado todavía</value>
+  </data>
+  <data name="cursaved" xml:space="preserve">
+    <value>El archivo actual está guardado</value>
+  </data>
+  <data name="downloadaddon" xml:space="preserve">
+    <value>Descargar addon</value>
+  </data>
+  <data name="filters" xml:space="preserve">
+    <value>Archivo de texto plano|*.txt|Archivo de texto enriquecido|*.rtf|Archivo HTML Hypertext Markup Language|*.html;*.htm|Archivo CSS Cascade Style Sheet|*.css|Archivo PHP Hypertext Preprocessor|*.php;*.phtml|Archivo JavaScript|*.js|Archivo Visual Basics|*.vb;*.vbs|Archivo de origen C#|*.cs|Archivo batch|*.bat;*.cmd;*.nt|</value>
+  </data>
+  <data name="foundmulti1" xml:space="preserve">
+    <value>El texto introducido se ha encontrado</value>
+  </data>
+  <data name="foundmulti2" xml:space="preserve">
+    <value>veces</value>
+  </data>
+  <data name="foundonce" xml:space="preserve">
+    <value>El texto introducido se ha encontrado una vez</value>
+  </data>
+  <data name="foundt" xml:space="preserve">
+    <value>Texto encontrado</value>
+  </data>
+  <data name="helloworld" xml:space="preserve">
+    <value>¡Hola mundo!</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="help" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\help.rtf;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="lines" xml:space="preserve">
+    <value>Líneas:</value>
+  </data>
+  <data name="loadsuccess" xml:space="preserve">
+    <value>El programa se ha cargado correctamente</value>
+  </data>
+  <data name="neiperm" xml:space="preserve">
+    <value>No se pudo guardar el archivo ya que se intentó sobreescribir un archivo oculto y no se tienen los permisos necesarios</value>
+  </data>
+  <data name="notfound" xml:space="preserve">
+    <value>El texto introducido no se ha encontrado</value>
+  </data>
+  <data name="notfoundt" xml:space="preserve">
+    <value>Texto no encontrado</value>
+  </data>
+  <data name="openerror" xml:space="preserve">
+    <value>Ocurrió un error al intentar abrir el archivo</value>
+  </data>
+  <data name="opensuccess" xml:space="preserve">
+    <value>Se ha abierto el archivo correctamente</value>
+  </data>
+  <data name="saverequired" xml:space="preserve">
+    <value>Se necesita guardar</value>
+  </data>
+  <data name="savesuccess" xml:space="preserve">
+    <value>Se ha guardado el archivo correctamente en</value>
+  </data>
+  <data name="selection" xml:space="preserve">
+    <value>Selección:</value>
+  </data>
+  <data name="ssaveerror" xml:space="preserve">
+    <value>Error al guardar los ajustes</value>
+  </data>
+  <data name="tocompile" xml:space="preserve">
+    <value>Para compilar el archivo, antes debe guardarlo.
+¿Desea guardar el archivo ahora?</value>
+  </data>
+  <data name="vbcompiler" xml:space="preserve">
+    <value>Compilador VB.Net</value>
+  </data>
+  <data name="wishdownload" xml:space="preserve">
+    <value>Desea descargar el addon para poder compilar en</value>
+  </data>
+</root>

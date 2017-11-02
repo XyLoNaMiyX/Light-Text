@@ -1,0 +1,573 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;foreColorL.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;underlineCB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;boldCB.Name" xml:space="preserve">
+    <value>boldCB</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="acceptB.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;boldCB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="backColorP.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;fontSizeL.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;strikeoutCB.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;strikeoutCB.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;fontsCB.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;fontL.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;backColorL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cancelB.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;italicCB.Name" xml:space="preserve">
+    <value>italicCB</value>
+  </data>
+  <data name="cancelB.Text" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="fontSizeTB.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;foreColorL.Name" xml:space="preserve">
+    <value>foreColorL</value>
+  </data>
+  <data name="foreColorL.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;backColorP.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;acceptB.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="fontL.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;fontSizeTB.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="underlineCB.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;foreColorP.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="italicCB.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="backColorL.Text" xml:space="preserve">
+    <value>Color de fondo</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="strikeoutCB.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Strikeout</value>
+  </data>
+  <data name="&gt;&gt;fontL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="previewCB.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="foreColorP.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="backColorP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>92, 158</value>
+  </data>
+  <data name="&gt;&gt;fontsCB.Name" xml:space="preserve">
+    <value>fontsCB</value>
+  </data>
+  <data name="&gt;&gt;fontSizeL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="acceptB.Text" xml:space="preserve">
+    <value>Aceptar</value>
+  </data>
+  <data name="backColorL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 13</value>
+  </data>
+  <data name="&gt;&gt;underlineCB.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;underlineCB.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>257, 233</value>
+  </data>
+  <data name="&gt;&gt;fontsCB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;backColorL.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="fontL.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="previewCB.Text" xml:space="preserve">
+    <value>Vista previa</value>
+  </data>
+  <data name="fontSizeL.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;previewCB.Name" xml:space="preserve">
+    <value>previewCB</value>
+  </data>
+  <data name="&gt;&gt;acceptB.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;strikeoutCB.Name" xml:space="preserve">
+    <value>strikeoutCB</value>
+  </data>
+  <data name="italicCB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 113</value>
+  </data>
+  <data name="boldCB.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="strikeoutCB.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="strikeoutCB.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="fontSizeTB.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;boldCB.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cancelB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 200</value>
+  </data>
+  <data name="italicCB.Text" xml:space="preserve">
+    <value>Cursiva</value>
+  </data>
+  <data name="foreColorP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>223, 156</value>
+  </data>
+  <data name="boldCB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 89</value>
+  </data>
+  <data name="fontL.Text" xml:space="preserve">
+    <value>Fuente</value>
+  </data>
+  <data name="boldCB.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="fontsCB.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="fontsCB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>59, 38</value>
+  </data>
+  <data name="&gt;&gt;foreColorP.Name" xml:space="preserve">
+    <value>foreColorP</value>
+  </data>
+  <data name="&gt;&gt;fontSizeL.Name" xml:space="preserve">
+    <value>fontSizeL</value>
+  </data>
+  <data name="fontSizeL.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="italicCB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 17</value>
+  </data>
+  <data name="fontL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 41</value>
+  </data>
+  <data name="&gt;&gt;foreColorP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fontSizeTB.Name" xml:space="preserve">
+    <value>fontSizeTB</value>
+  </data>
+  <data name="&gt;&gt;previewCB.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;cancelB.Name" xml:space="preserve">
+    <value>cancelB</value>
+  </data>
+  <data name="&gt;&gt;italicCB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="underlineCB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 89</value>
+  </data>
+  <data name="underlineCB.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="underlineCB.Text" xml:space="preserve">
+    <value>Subrayada</value>
+  </data>
+  <data name="fontSizeL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 9</value>
+  </data>
+  <data name="&gt;&gt;fontsCB.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="boldCB.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="fontSizeL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 13</value>
+  </data>
+  <data name="boldCB.Text" xml:space="preserve">
+    <value>Negrita</value>
+  </data>
+  <data name="&gt;&gt;backColorP.Name" xml:space="preserve">
+    <value>backColorP</value>
+  </data>
+  <data name="previewCB.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;backColorL.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="foreColorL.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="fontSizeL.Text" xml:space="preserve">
+    <value>Tamaño de la fuente</value>
+  </data>
+  <data name="&gt;&gt;cancelB.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="italicCB.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Italic</value>
+  </data>
+  <data name="&gt;&gt;underlineCB.Name" xml:space="preserve">
+    <value>underlineCB</value>
+  </data>
+  <data name="italicCB.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="fontsCB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 21</value>
+  </data>
+  <data name="&gt;&gt;italicCB.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;foreColorP.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAGBgAAAEAIACICQAAFgAAACgAAAAYAAAAMAAAAAEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA8vLyCfLy8n/y8vLd8vLy/fLy8v/y8vL/8vLy//Ly8v/y8vL/8vLy//Pz8//z8/P/8vLy//Ly
+        8v/y8vL/8vLy//Ly8v/y8vL/8vLy/fLy8t3y8vJ/8vLyCQAAAADy8vIJ8vLyxPLy8v/y8vL/8vLy//Ly
+        8v/y8vL/8/Pz//Pz8//z8/P/8/Pz/9ra2v/Hx8f/w8PD/8zMzP/c3Nz/6+vr//Ly8v/y8vL/8vLy//Ly
+        8v/y8vL/8vLyxPLy8gny8vJ/8vLy//Ly8v/y8vL/8vLy/9XV1f/ExMT/8vLy//T09P+0tLT/V1dX/0BA
+        QP9XV1f/fn5+/5OTk/+ZmZn/g4OD/3l5ef+Tk5P/3t7e//Ly8v/y8vL/8vLy//Ly8n/y8vLd8vLy//Ly
+        8v/y8vL/qKio/z4+Pv89PT3/bW1t/4GBgf88PDz/UlJS/7q6uv/y8vL/9vb2//X19f/19fX/9fX1//T0
+        9P/j4+P/t7e3/8vLy//x8fH/8vLy//Ly8t3y8vL98vLy//Ly8v/Dw8P/Pj4+/0VFRf/Gxsb/vb29/zw8
+        PP9TU1P/5eXl//f39//39/f/9/f3//b29v/29vb/9vb2//X19f/09PT/8/Pz//Hx8f/Hx8f/7e3t//Ly
+        8v3y8vL/8vLy//Pz8/9iYmL/PDw8/7a2tv/k5OT/TExM/z09Pf9PT0//6Ojo//j4+P/4+Pj/+Pj4//f3
+        9//39/f/9vb2//b29v/19fX/9PT0//Pz8//z8/P/8vLy//Ly8v/y8vL/8vLy//Pz8/+4uLj/VlZW/52d
+        nf9YWFj/PDw8/4yMjP+QkJD/kpKS//n5+f/5+fn/+fn5//j4+P/4+Pj/9/f3//f39//29vb/9fX1//T0
+        9P/z8/P/8vLy//Ly8v/y8vL/8/Pz//T09P/19fX/7Ozs/6Ghof99fX3/lZWV//Pz8//i4uL/W1tb/+bm
+        5v/6+vr/+vr6//n5+f/5+fn/+Pj4//f39//29vb/9vb2//X19f/09PT/8/Pz//Ly8v/y8vL/8/Pz//T0
+        9P/19fX/9vb2//f39//4+Pj/+fn5//r6+v/6+vr/gYGB/7Gxsf/7+/v/+/v7//r6+v/6+vr/+fn5//j4
+        +P/39/f/9vb2//X19f/09PT/8/Pz//Ly8v/y8vL/8/Pz//T09P/19fX/9vb2//f39//4+Pj/+fn5//r6
+        +v/7+/v/rq6u/4iIiP/8/Pz//Pz8//v7+//6+vr/+fn5//j4+P/39/f/9vb2//X19f/09PT/8/Pz//Ly
+        8v/y8vL/8/Pz//X19f/29vb/9/f3//j4+P/5+fn/+vr6//v7+//8/Pz/ysrK/3Fxcf/x8fH//f39//z8
+        /P/7+/v/+vr6//n5+f/4+Pj/9/f3//b29v/19fX/8/Pz//Ly8v/z8/P/9PT0//X19f/29vb/9/f3//j4
+        +P/5+fn/+vr6//v7+//8/Pz/1tbW/2lpaf/b29v//f39//z8/P/7+/v/+vr6//n5+f/4+Pj/9/f3//b2
+        9v/19fX/9PT0//Pz8//z8/P/9PT0//X19f/29vb/9/f3//j4+P/5+fn/+vr6//v7+//8/Pz/2dnZ/2Fh
+        Yf/R0dH//f39//z8/P/7+/v/+vr6//n5+f/4+Pj/9/f3//b29v/19fX/9PT0//Pz8//y8vL/8/Pz//X1
+        9f/29vb/9/f3//j4+P/5+fn/+vr6//v7+//8/Pz/09PT/1lZWf/Pz8///f39//z8/P/7+/v/+vr6//n5
+        +f/4+Pj/9/f3//b29v/19fX/8/Pz//Ly8v/y8vL/8/Pz//T09P/19fX/9vb2//f39//4+Pj/+fn5//r6
+        +v/7+/v/ysrK/1FRUf/U1NT//Pz8//v7+//6+vr/+fn5//j4+P/39/f/9vb2//X19f/09PT/8/Pz//Ly
+        8v/y8vL/8/Pz//T09P/19fX/9vb2//f39//y8vL/tbW1/6+vr/+lpaX/hISE/0lJSf94eHj/hoaG/4aG
+        hv+FhYX/hISE/4SEhP+FhYX/lZWV/+zs7P/09PT/8/Pz//Ly8v/y8vL/8/Pz//T09P/19fX/9vb2//b2
+        9v/39/f/5ubm/6enp/+np6f/h4eH/0FBQf+jo6P/vLy8/7+/v//BwcH/wcHB/8DAwP++vr7/urq6/8/P
+        z//09PT/8/Pz//Ly8v/y8vL/8vLy//Pz8//09PT/9fX1//b29v/39/f/9/f3//j4+P/4+Pj/r6+v/z09
+        Pf/e3t7/+fn5//j4+P/4+Pj/9/f3//f39//29vb/9fX1//T09P/z8/P/8vLy//Ly8v/y8vL/8vLy//Pz
+        8//z8/P/9PT0//X19f/29vb/9vb2//f39//39/f/pKSk/zw8PP/h4eH/+Pj4//f39//39/f/9vb2//b2
+        9v/19fX/9PT0//Pz8//z8/P/8vLy//Ly8v/y8vL98vLy//Ly8v/z8/P/8/Pz//T09P/19fX/9vb2//b2
+        9v/29vb/mpqa/zw8PP/j4+P/9/f3//b29v/29vb/9vb2//X19f/09PT/8/Pz//Pz8//y8vL/8vLy//Ly
+        8v3y8vLd8vLy//Ly8v/y8vL/8/Pz//Pz8//09PT/9fX1//X19f/19fX/jo6O/zw8PP/i4uL/9vb2//X1
+        9f/19fX/9fX1//T09P/z8/P/8/Pz//Ly8v/y8vL/8vLy//Ly8t3y8vJ/8vLy//Ly8v/y8vL/8vLy//Pz
+        8//z8/P/9PT0//T09P/09PT/ioqK/zw8PP/f39//9fX1//T09P/09PT/9PT0//Pz8//z8/P/8vLy//Ly
+        8v/y8vL/8vLy//Ly8n/y8vIJ8vLyxPLy8v/y8vL/8vLy//Ly8v/y8vL/8/Pz//Pz8//z8/P/8PDw/6ys
+        rP/i4uL/8/Pz//Pz8//z8/P/8/Pz//Ly8v/y8vL/8vLy//Ly8v/y8vL/8vLyxPLy8gkAAAAA8vLyCfLy
+        8n/y8vLd8vLy/fLy8v/y8vL/8vLy//Ly8v/y8vL/8vLy//Pz8//z8/P/8vLy//Ly8v/y8vL/8vLy//Ly
+        8v/y8vL/8vLy/fLy8t3y8vJ/8vLyCQAAAACAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA
+        AQA=
+</value>
+  </data>
+  <data name="&gt;&gt;fontSizeTB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;acceptB.Name" xml:space="preserve">
+    <value>acceptB</value>
+  </data>
+  <data name="&gt;&gt;backColorP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="acceptB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="backColorL.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="fontSizeTB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 9</value>
+  </data>
+  <data name="&gt;&gt;fontL.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cancelB.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>StyleF</value>
+  </data>
+  <data name="&gt;&gt;boldCB.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Estilo</value>
+  </data>
+  <data name="underlineCB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 17</value>
+  </data>
+  <data name="&gt;&gt;fontSizeL.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;acceptB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;foreColorL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;previewCB.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="boldCB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 17</value>
+  </data>
+  <data name="&gt;&gt;backColorP.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;fontSizeTB.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;cancelB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;backColorL.Name" xml:space="preserve">
+    <value>backColorL</value>
+  </data>
+  <data name="fontSizeTB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 26</value>
+  </data>
+  <data name="previewCB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 17</value>
+  </data>
+  <data name="backColorP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="&gt;&gt;fontL.Name" xml:space="preserve">
+    <value>fontL</value>
+  </data>
+  <data name="foreColorP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="&gt;&gt;italicCB.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="foreColorL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 13</value>
+  </data>
+  <data name="strikeoutCB.Text" xml:space="preserve">
+    <value>Tachada</value>
+  </data>
+  <data name="cancelB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="foreColorL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>141, 167</value>
+  </data>
+  <data name="&gt;&gt;strikeoutCB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="underlineCB.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Underline</value>
+  </data>
+  <data name="backColorL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 167</value>
+  </data>
+  <data name="acceptB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 200</value>
+  </data>
+  <data name="strikeoutCB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 113</value>
+  </data>
+  <data name="previewCB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 204</value>
+  </data>
+  <data name="fontL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 13</value>
+  </data>
+  <data name="foreColorL.Text" xml:space="preserve">
+    <value>Color de frente</value>
+  </data>
+  <data name="&gt;&gt;previewCB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;foreColorL.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="backColorL.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="strikeoutCB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 17</value>
+  </data>
+</root>
